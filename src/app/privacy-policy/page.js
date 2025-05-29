@@ -4,7 +4,6 @@ export const metadata = {
   description: 'Kebijakan Privasi untuk penggunaan bot musik IP Music di Discord.',
 };
 
-// Komponen untuk merender placeholder
 const Placeholder = ({ children }) => <span className="text-yellow-500 font-semibold">[{children}]</span>;
 
 export default function PrivacyPolicyPage() {
@@ -15,7 +14,7 @@ export default function PrivacyPolicyPage() {
         <p className="mt-2 text-sm text-text-on-dark-secondary">Tanggal Efektif: <Placeholder>Tanggal Efektif</Placeholder></p>
       </header>
 
-      <p>Selamat datang di Kebijakan Privasi IP Music ("Bot", "kami", "milik kami", atau "kita"). Kami menghargai privasi Anda dan berkomitmen untuk melindunginya. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, memproses, dan melindungi informasi Anda saat Anda menggunakan Bot kami di platform Discord.</p>
+      <p>Selamat datang di Kebijakan Privasi IP Music (&quot;Bot&quot;, &quot;kami&quot;, &quot;milik kami&quot;, atau &quot;kita&quot;). Kami menghargai privasi Anda dan berkomitmen untuk melindunginya. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, memproses, dan melindungi informasi Anda saat Anda menggunakan Bot kami di platform Discord.</p>
 
       <section className="mt-8 space-y-4">
         <h2>1. Informasi yang Kami Kumpulkan dan Proses</h2>
@@ -32,7 +31,7 @@ export default function PrivacyPolicyPage() {
         <h3 className="!text-lg !text-text-on-dark !font-semibold mt-4 mb-2">Informasi Terkait Permintaan Musik:</h3>
         <ul className="list-disc space-y-1 pl-5">
           <li><strong>URL atau Kueri Pencarian:</strong> Link ke YouTube, Spotify, atau teks pencarian judul lagu yang Anda berikan.</li>
-          <li><strong>Metadata Lagu (Sementara):</strong> Saat memproses permintaan, Bot dapat mengambil metadata (judul, artis, durasi, thumbnail) dari layanan seperti Spotify (menggunakan API Spotify) atau YouTube (menggunakan yt-dlp). Informasi ini umumnya disimpan sementara dalam memori (RAM) untuk keperluan antrian, tampilan "Now Playing", atau histori sesi saat ini.</li>
+          <li><strong>Metadata Lagu (Sementara):</strong> Saat memproses permintaan, Bot dapat mengambil metadata (judul, artis, durasi, thumbnail) dari layanan seperti Spotify (menggunakan API Spotify) atau YouTube (menggunakan yt-dlp). Informasi ini umumnya disimpan sementara dalam memori (RAM) untuk keperluan antrian, tampilan &quot;Now Playing&quot;, atau histori sesi saat ini.</li>
         </ul>
 
         <h3 className="!text-lg !text-text-on-dark !font-semibold mt-4 mb-2">Data Penggunaan (Sementara):</h3>
@@ -56,7 +55,7 @@ export default function PrivacyPolicyPage() {
         <ul className="list-disc space-y-1 pl-5">
           <li>Menyediakan fungsionalitas inti Bot: menerima perintah, bergabung ke channel suara, mencari dan memutar musik, mengelola antrian.</li>
           <li>Menanggapi perintah dan permintaan Anda.</li>
-          <li>Menampilkan informasi "Now Playing" dan antrian.</li>
+          <li>Menampilkan informasi &quot;Now Playing&quot; dan antrian.</li>
           <li>Memungkinkan fitur seperti skip, pause, resume, stop, replay, dan autoplay.</li>
           <li>Memecahkan masalah (troubleshooting) dan meningkatkan kinerja serta fungsionalitas Bot.</li>
           <li>Memantau penggunaan Bot untuk memastikan kepatuhan terhadap Ketentuan Layanan.</li>
@@ -71,7 +70,7 @@ export default function PrivacyPolicyPage() {
             <ul className="list-circle space-y-1 pl-5 mt-1">
                 <li>Discord API: Informasi pengguna dan server Anda secara inheren dibagikan dengan Discord agar Bot dapat berfungsi.</li>
                 <li>YouTube API/yt-dlp: Kueri pencarian atau URL YouTube dibagikan untuk mencari dan mengambil informasi/stream audio.</li>
-                <li>Spotify API: URL Spotify dibagikan untuk mengambil metadata lagu/album/playlist. Kredensial API Spotify Anda (Client ID & Secret) digunakan untuk autentikasi ke Spotify API.</li>
+                <li>Spotify API: URL Spotify dibagikan untuk mengambil metadata lagu/album/playlist. Kredensial API Spotify Anda (Client ID &amp; Secret) digunakan untuk autentikasi ke Spotify API.</li>
             </ul>
           </li>
           <li><strong>Persyaratan Hukum:</strong> Jika diwajibkan oleh hukum, panggilan pengadilan, atau proses hukum lainnya, atau untuk melindungi hak, properti, atau keselamatan kami, pengguna kami, atau publik.</li>
@@ -116,7 +115,7 @@ export default function PrivacyPolicyPage() {
 
       <section className="mt-8 space-y-2">
         <h2>9. Perubahan pada Kebijakan Privasi Kami</h2>
-        <p>Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Kami akan memberi tahu Anda tentang perubahan signifikan dengan memposting kebijakan baru dan memperbarui "Tanggal Efektif" di bagian atas. Dianjurkan untuk meninjau Kebijakan Privasi ini secara berkala untuk setiap perubahan.</p>
+        <p>Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Kami akan memberi tahu Anda tentang perubahan signifikan dengan memposting kebijakan baru dan memperbarui &quot;Tanggal Efektif&quot; di bagian atas. Dianjurkan untuk meninjau Kebijakan Privasi ini secara berkala untuk setiap perubahan.</p>
       </section>
 
       <section className="mt-8 space-y-2">

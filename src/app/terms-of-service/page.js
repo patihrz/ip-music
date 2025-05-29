@@ -4,7 +4,6 @@ export const metadata = {
   description: 'Ketentuan Layanan untuk penggunaan bot musik IP Music di Discord.',
 };
 
-// Komponen untuk merender placeholder
 const Placeholder = ({ children }) => <span className="text-yellow-500 font-semibold">[{children}]</span>;
 
 export default function TermsOfServicePage() {
@@ -15,7 +14,7 @@ export default function TermsOfServicePage() {
         <p className="mt-2 text-sm text-text-on-dark-secondary">Tanggal Efektif: <Placeholder>Tanggal Efektif</Placeholder></p>
       </header>
 
-      <p>Selamat datang di IP Music ("Bot", "kami", "milik kami", atau "kita"), yang dioperasikan oleh <Placeholder>Nama Anda/Nama Pengembang</Placeholder>. Ketentuan Layanan ("Ketentuan") ini mengatur penggunaan Anda atas Bot kami di platform Discord.</p>
+      <p>Selamat datang di IP Music (&quot;Bot&quot;, &quot;kami&quot;, &quot;milik kami&quot;, atau &quot;kita&quot;), yang dioperasikan oleh <Placeholder>Nama Anda/Nama Pengembang</Placeholder>. Ketentuan Layanan (&quot;Ketentuan&quot;) ini mengatur penggunaan Anda atas Bot kami di platform Discord.</p>
       <p>Dengan mengundang, menambahkan, atau menggunakan Bot ini di server Discord Anda atau melalui pesan langsung, Anda menyetujui untuk terikat oleh Ketentuan ini. Jika Anda tidak setuju dengan bagian mana pun dari Ketentuan ini, Anda tidak boleh menggunakan Bot.</p>
 
       <section className="mt-8 space-y-2">
@@ -56,7 +55,7 @@ export default function TermsOfServicePage() {
       <section className="mt-8 space-y-2">
         <h2>5. Ketersediaan Layanan</h2>
         <ul className="list-disc space-y-1 pl-5">
-            <li>Kami berusaha untuk menjaga Bot tetap operasional. Namun, Bot disediakan "SEBAGAIMANA ADANYA" dan "SEBAGAIMANA TERSEDIA".</li>
+            <li>Kami berusaha untuk menjaga Bot tetap operasional. Namun, Bot disediakan &quot;SEBAGAIMANA ADANYA&quot; dan &quot;SEBAGAIMANA TERSEDIA&quot;.</li>
             <li>Kami tidak menjamin bahwa Bot akan selalu tersedia, tanpa gangguan, tepat waktu, atau bebas dari kesalahan. Operasi Bot dapat ditangguhkan sementara tanpa pemberitahuan untuk pemeliharaan, perbaikan, atau karena alasan di luar kendali kami.</li>
         </ul>
       </section>
@@ -79,7 +78,7 @@ export default function TermsOfServicePage() {
 
       <section className="mt-8 space-y-2">
         <h2>8. Penafian Jaminan</h2>
-        <p>SEJAUH DIIZINKAN OLEH HUKUM YANG BERLAKU, BOT INI DISEDIAKAN "SEBAGAIMANA ADANYA" TANPA JAMINAN APA PUN, BAIK TERSURAT MAUPUN TERSIRAT, TERMASUK NAMUN TIDAK TERBATAS PADA JAMINAN KELAYAKAN UNTUK DIPERDAGANGKAN, KESESUAIAN UNTUK TUJUAN TERTENTU, DAN NON-PELANGGARAN. KAMI TIDAK MENJAMIN BAHWA BOT AKAN BEBAS DARI KESALAHAN ATAU GANGGUAN.</p>
+        <p>SEJAUH DIIZINKAN OLEH HUKUM YANG BERLAKU, BOT INI DISEDIAKAN &quot;SEBAGAIMANA ADANYA&quot; TANPA JAMINAN APA PUN, BAIK TERSURAT MAUPUN TERSIRAT, TERMASUK NAMUN TIDAK TERBATAS PADA JAMINAN KELAYAKAN UNTUK DIPERDAGANGKAN, KESESUAIAN UNTUK TUJUAN TERTENTU, DAN NON-PELANGGARAN. KAMI TIDAK MENJAMIN BAHWA BOT AKAN BEBAS DARI KESALAHAN ATAU GANGGUAN.</p>
       </section>
 
       <section className="mt-8 space-y-2">
